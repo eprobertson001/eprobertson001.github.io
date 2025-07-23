@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Evan Robertson</title>
+    <meta name="description" content="Learn about Evan Robertson's approach to technology consulting and custom software development for small businesses and nonprofits.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">
+                        <div class="logo-placeholder">ER</div>
+                    </div>
+                    <div class="brand-text">
+                        <h1 class="brand-name">Evan Robertson</h1>
+                        <p class="tagline">Technology consulting for ethical innovation.</p>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link active">About</a></li>
+                        <li><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+                        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-headline">Building technology that serves your mission</h2>
+                <p class="hero-description">As an independent developer, I specialize in creating custom software solutions that help small businesses and nonprofits operate more efficiently without breaking the bank.</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>My Approach</h3>
+                        <p>I believe technology should empower organizations, not overwhelm them. That's why I focus on creating simple, elegant solutions that solve real problems. Every project starts with understanding your unique workflow and challenges.</p>
+                        
+                        <h3>Why Choose Custom Development?</h3>
+                        <ul class="feature-list">
+                            <li><strong>Perfect Fit:</strong> Software built specifically for your processes and needs</li>
+                            <li><strong>Cost Effective:</strong> No monthly subscriptions or unnecessary features</li>
+                            <li><strong>Full Control:</strong> Own your data and customize as you grow</li>
+                            <li><strong>Personal Service:</strong> Direct communication with the developer</li>
+                        </ul>
+
+                        <h3>Technical Expertise</h3>
+                        <p>With expertise in modern web technologies, database design, and user experience, I can build everything from simple websites to complex business applications. I prioritize clean code, security, and maintainability in every project.</p>
+                    </div>
+                    
+                    <div class="about-sidebar">
+                        <div class="experience-card">
+                            <h4>Experience</h4>
+                            <ul>
+                                <li>5+ years in software development</li>
+                                <li>Specialized in small business solutions</li>
+                                <li>Nonprofit sector experience</li>
+                                <li>Full-stack web development</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tech-stack-card">
+                            <h4>Technologies</h4>
+                            <ul>
+                                <li>JavaScript, Python, PHP</li>
+                                <li>React, Vue.js, Node.js</li>
+                                <li>MySQL, PostgreSQL, MongoDB</li>
+                                <li>AWS, Digital Ocean</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Evan Robertson. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        .about-content {
+            padding: var(--spacing-16) 0;
+        }
+        
+        .about-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: var(--spacing-12);
+        }
+        
+        .about-text h3 {
+            color: var(--text-primary);
+            font-size: var(--font-size-xl);
+            font-weight: 600;
+            margin-bottom: var(--spacing-4);
+            margin-top: var(--spacing-8);
+        }
+        
+        .about-text h3:first-child {
+            margin-top: 0;
+        }
+        
+        .about-text p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--spacing-4);
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin-bottom: var(--spacing-6);
+        }
+        
+        .feature-list li {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--spacing-3);
+            position: relative;
+            padding-left: var(--spacing-6);
+        }
+        
+        .feature-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        
+        .experience-card,
+        .tech-stack-card {
+            background: var(--background-light);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: var(--spacing-6);
+            margin-bottom: var(--spacing-6);
+        }
+        
+        .experience-card h4,
+        .tech-stack-card h4 {
+            color: var(--text-primary);
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            margin-bottom: var(--spacing-4);
+        }
+        
+        .experience-card ul,
+        .tech-stack-card ul {
+            list-style: none;
+        }
+        
+        .experience-card li,
+        .tech-stack-card li {
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-2);
+            position: relative;
+            padding-left: var(--spacing-4);
+        }
+        
+        .experience-card li::before,
+        .tech-stack-card li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+        
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-8);
+            }
+        }
+    </style>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

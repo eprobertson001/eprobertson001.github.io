@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Evan Robertson</title>
+    <meta name="description" content="Thank you for your inquiry. We'll get back to you soon.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">
+                        <div class="logo-placeholder">ER</div>
+                    </div>
+                    <div class="brand-text">
+                        <h1 class="brand-name">Evan Robertson</h1>
+                        <p class="tagline">Technology consulting for ethical innovation.</p>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+                        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="thank-you-section">
+            <div class="container">
+                <div class="thank-you-container">
+                    <div class="thank-you-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h2 class="thank-you-message">Thank you for your inquiry! Evan will review your submission and get back to you soon.</h2>
+                    <p class="thank-you-description">I typically respond to all inquiries within 24 hours. If your project is urgent, you should expect to hear back even sooner.</p>
+                    <a href="index.html" class="btn">Return to Home</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="next-steps">
+            <div class="container">
+                <h3>What happens next?</h3>
+                <div class="steps-grid">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Review</h4>
+                            <p>I'll carefully review your project details and requirements to understand your needs.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Response</h4>
+                            <p>You'll receive a detailed response with initial thoughts and next steps within 24 hours.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Consultation</h4>
+                            <p>We'll schedule a free consultation call to discuss your project in detail.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Proposal</h4>
+                            <p>If we're a good fit, I'll create a detailed proposal with timeline and pricing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Evan Robertson. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        .thank-you-section {
+            padding: var(--spacing-20) 0;
+        }
+        
+        .thank-you-icon {
+            color: var(--accent-color);
+            text-align: center;
+            margin-bottom: var(--spacing-6);
+        }
+        
+        .next-steps {
+            background: var(--background-light);
+            padding: var(--spacing-16) 0;
+        }
+        
+        .next-steps h3 {
+            text-align: center;
+            color: var(--text-primary);
+            font-size: var(--font-size-2xl);
+            font-weight: 600;
+            margin-bottom: var(--spacing-12);
+        }
+        
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-8);
+        }
+        
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--spacing-4);
+        }
+        
+        .step-number {
+            background: var(--primary-color);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: var(--font-size-lg);
+            flex-shrink: 0;
+        }
+        
+        .step-content h4 {
+            color: var(--text-primary);
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            margin-bottom: var(--spacing-2);
+        }
+        
+        .step-content p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

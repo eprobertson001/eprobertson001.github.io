@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Evan Robertson</title>
+    <meta name="description" content="Get in touch to discuss your custom software development needs. Free consultation available.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">
+                        <div class="logo-placeholder">ER</div>
+                    </div>
+                    <div class="brand-text">
+                        <h1 class="brand-name">Evan Robertson</h1>
+                        <p class="tagline">Technology consulting for ethical innovation.</p>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+                        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-headline">Let's discuss your project</h2>
+                <p class="hero-description">Ready to streamline your operations with custom software? Get in touch for a free consultation to explore how we can solve your unique challenges.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get Started Today</h3>
+                        <p>Every successful project starts with understanding your needs. During our initial consultation, we'll discuss:</p>
+                        <ul class="consultation-points">
+                            <li>Your current workflow and pain points</li>
+                            <li>Technical requirements and constraints</li>
+                            <li>Project timeline and budget considerations</li>
+                            <li>Potential solutions and approaches</li>
+                        </ul>
+                        
+                        <div class="contact-details">
+                            <h4>Response Time</h4>
+                            <p>I typically respond to inquiries within 24 hours. For urgent matters, please mention "URGENT" in your subject line.</p>
+                            
+                            <h4>Best Projects For</h4>
+                            <ul>
+                                <li>Small to medium businesses</li>
+                                <li>Nonprofit organizations</li>
+                                <li>Startups and entrepreneurs</li>
+                                <li>Organizations seeking affordable custom solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper">
+                        <form id="contact-form" class="form-container">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <input type="text" id="subject" name="subject" class="form-input" required placeholder="e.g., Custom Inventory System for Retail Store">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" required placeholder="Please describe your project, current challenges, and what you hope to achieve. The more details you provide, the better I can help you."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4>How long does a typical project take?</h4>
+                        <p>Project timelines vary based on complexity. Simple websites typically take 2-4 weeks, while custom applications can take 2-6 months. I'll provide a detailed timeline during our consultation.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Do you work with nonprofits?</h4>
+                        <p>Absolutely! I offer a 20% discount for registered nonprofits and have experience building donor management systems, volunteer coordination tools, and other mission-critical applications.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>What happens after the project is complete?</h4>
+                        <p>You receive all source code, documentation, and training materials. I provide 30 days of free support and am available for ongoing maintenance and updates at competitive rates.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Can you integrate with existing systems?</h4>
+                        <p>Yes, I specialize in creating solutions that work with your current tools. Whether it's accounting software, CRM systems, or payment processors, integration is often possible.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>What if I'm not sure what I need?</h4>
+                        <p>That's perfectly normal! During our free consultation, I'll help you identify the best solutions for your specific challenges and goals. No technical expertise required on your part.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Do you offer hosting and maintenance?</h4>
+                        <p>Yes, I can provide hosting recommendations and ongoing maintenance services. However, you always own your code and data, so you're never locked into any particular provider.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Evan Robertson. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        .contact-section {
+            padding: var(--spacing-16) 0;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-12);
+            align-items: start;
+        }
+        
+        .contact-info h3 {
+            color: var(--text-primary);
+            font-size: var(--font-size-2xl);
+            font-weight: 600;
+            margin-bottom: var(--spacing-4);
+        }
+        
+        .contact-info p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--spacing-4);
+        }
+        
+        .consultation-points {
+            list-style: none;
+            margin-bottom: var(--spacing-8);
+        }
+        
+        .consultation-points li {
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-3);
+            position: relative;
+            padding-left: var(--spacing-5);
+            line-height: 1.6;
+        }
+        
+        .consultation-points li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        
+        .contact-details {
+            margin-top: var(--spacing-8);
+        }
+        
+        .contact-details h4 {
+            color: var(--text-primary);
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            margin-bottom: var(--spacing-3);
+            margin-top: var(--spacing-6);
+        }
+        
+        .contact-details h4:first-child {
+            margin-top: 0;
+        }
+        
+        .contact-details ul {
+            list-style: none;
+        }
+        
+        .contact-details li {
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-2);
+            position: relative;
+            padding-left: var(--spacing-4);
+        }
+        
+        .contact-details li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+        
+        .faq-section {
+            background: var(--background-light);
+            padding: var(--spacing-16) 0;
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--spacing-8);
+        }
+        
+        .faq-item {
+            background: var(--background);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: var(--spacing-6);
+        }
+        
+        .faq-item h4 {
+            color: var(--text-primary);
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            margin-bottom: var(--spacing-3);
+        }
+        
+        .faq-item p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-8);
+            }
+        }
+    </style>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
