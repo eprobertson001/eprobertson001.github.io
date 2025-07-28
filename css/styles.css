@@ -12,11 +12,12 @@
     --primary-light: #3b82f6;        /* Lighter blue */
     --secondary-color: #64748b;      /* Slate gray */
     --accent-color: #059669;         /* Success green */
-    --text-primary: #1e293b;         /* Dark slate */
-    --text-secondary: #64748b;       /* Medium slate */
-    --text-light: #94a3b8;           /* Light slate */
+    --text-primary: #edeff3;         /* Dark slate */
+    --text-light: #c1cbd8;       /* Medium slate */
+    --text-subheaders: #0a264b;  
+    --text-dark: #0c1829;           /* Light slate */
     --background: #ffffff;           /* White */
-    --background-light: #f8fafc;     /* Very light gray */
+    --background-light: #3e5266;     /* Very light gray */
     --border-color: #e2e8f0;         /* Light border */
     --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -49,7 +50,7 @@
 body {
     font-family: var(--font-family);
     line-height: 1.6;
-    color: var(--text-primary);
+    color: var(--text-dark);
     background-color: var(--background);
 }
 
@@ -98,13 +99,13 @@ body {
 .brand-name {
     font-size: var(--font-size-xl);
     font-weight: 600;
-    color: var(--text-primary);
+    color: var(--text-dark);
     margin-bottom: var(--spacing-1);
 }
 
 .tagline {
     font-size: var(--font-size-sm);
-    color: var(--text-secondary);
+    color: var(--text-subheaders);
     font-weight: 400;
 }
 
@@ -116,7 +117,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: var(--text-secondary);
+    color: var(--text-subheaders);
     font-weight: 500;
     font-size: var(--font-size-sm);
     padding: var(--spacing-2) var(--spacing-3);
@@ -126,13 +127,13 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: var(--primary-color);
+    color: var(--text-primary);
     background-color: var(--background-light);
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--background-light) 0%, var(--background) 100%);
+    background: linear-gradient(135deg, var(--background-light) 60%, var(--background) 100%);
     padding: var(--spacing-20) 0;
 }
 
@@ -147,7 +148,7 @@ body {
 
 .hero-description {
     font-size: var(--font-size-lg);
-    color: var(--text-secondary);
+    color: var(--text-light);
     line-height: 1.7;
     max-width: 700px;
 }
@@ -160,7 +161,7 @@ body {
 .section-title {
     font-size: var(--font-size-3xl);
     font-weight: 600;
-    color: var(--text-primary);
+    color: var(--text-dark);
     text-align: center;
     margin-bottom: var(--spacing-16);
 }
@@ -233,7 +234,7 @@ body {
     justify-content: center;
     cursor: pointer;
     font-size: var(--font-size-xl);
-    color: var(--text-primary);
+    color: var(--text-dark);
     opacity: 0.7;
     transition: all 0.2s ease;
     z-index: 10;
@@ -262,7 +263,7 @@ body {
 }
 
 .product-title a {
-    color: var(--text-primary);
+    color: var(--text-dark);
     text-decoration: none;
     font-size: var(--font-size-xl);
     font-weight: 600;
@@ -274,7 +275,7 @@ body {
 }
 
 .product-description {
-    color: var(--text-secondary);
+    color: var(--text-subheaders);
     line-height: 1.6;
 }
 
@@ -288,7 +289,7 @@ body {
 
 .footer p {
     text-align: center;
-    color: var(--text-secondary);
+    color: var(--text-subheaders);
     font-size: var(--font-size-sm);
 }
 
@@ -311,7 +312,7 @@ body {
     display: block;
     margin-bottom: var(--spacing-2);
     font-weight: 500;
-    color: var(--text-primary);
+    color: var(--text-dark);
 }
 
 .form-input,
@@ -378,13 +379,13 @@ body {
 .thank-you-message {
     font-size: var(--font-size-2xl);
     font-weight: 600;
-    color: var(--text-primary);
+    color: var(--text-dark);
     margin-bottom: var(--spacing-6);
 }
 
 .thank-you-description {
     font-size: var(--font-size-lg);
-    color: var(--text-secondary);
+    color: var(--text-subheaders);
     margin-bottom: var(--spacing-8);
 }
 
